@@ -1,0 +1,46 @@
+StudentHub
+│
+├── Home
+│
+├── About
+│   ├── Headline
+│   ├── Mission
+│   └── Vision
+│
+├── Register
+│   ├── First Name
+│   ├── Last Name
+│   ├── Email
+│   ├── Password
+│   ├── Mobile No.
+│   ├── Date of Birth
+│   └── Course
+│
+├── Login
+│   ├── Username
+│   ├── Password
+│   └── Forgot Password
+│
+├── Dashboard
+│   ├── Graph
+│   ├── Events
+│   ├── Result
+│   └── Fees
+│
+├── Events
+│   └── Calendar
+│
+├── Profile
+│   ├── Name
+│   ├── Course
+│   ├── DOB
+│   ├── Address
+│   ├── Mobile No.
+│   └── Blood Group
+│
+├── Admin
+│
+├── FAQ
+│
+└── Feedback
+    └── Enter Your Feedback
