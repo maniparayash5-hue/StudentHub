@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.table,th,td{
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25c1c1;
+    padding: 10px 20px;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.header-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.button-login{
+    width: 95px;
+    max-width: 40px;
+    margin: 20px auto;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+    
+
+}
+.button-login button{
+    background: blue;
+    padding: 30px 28px;
+    font-size: 6px;
+
+}
+
