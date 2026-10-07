@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Orientation Program",
+    "date": "2026-07-15",
+    "category": "Academic",
+    "location": "CHARUSAT Auditorium"
+  },
+  {
+    "id": 2,
+    "title": "Coding Club Meeting",
+    "date": "2026-07-20",
+    "category": "Technical",
+    "location": "Computer Lab 1"
+  },
+  {
+    "id": 3,
+    "title": "Web Development Workshop",
+    "date": "2026-07-25",
+    "category": "Workshop",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 4,
+    "title": "Independence Day Celebration",
+    "date": "2026-08-15",
+    "category": "Cultural",
+    "location": "University Ground"
+  },
+  {
+    "id": 5,
+    "title": "Java Programming Seminar",
+    "date": "2026-08-20",
+    "category": "Technical",
+    "location": "Room C-101"
+  },
+  {
+    "id": 6,
+    "title": "Sports Day",
+    "date": "2026-08-28",
+    "category": "Sports",
+    "location": "Sports Ground"
+  },
+  {
+    "id": 7,
+    "title": "Quiz Competition",
+    "date": "2026-09-02",
+    "category": "Academic",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 8,
+    "title": "Cyber Security Workshop",
+    "date": "2026-09-08",
+    "category": "Workshop",
+    "location": "Computer Lab 2"
+  },
+  {
+    "id": 9,
+    "title": "Teachers Day Program",
+    "date": "2026-09-10",
+    "category": "Cultural",
+    "location": "Auditorium"
+  },
+  {
+    "id": 10,
+    "title": "Hackathon Registration",
+    "date": "2026-09-15",
+    "category": "Technical",
+    "location": "Innovation Lab"
+  },
+  {
+    "id": 11,
+    "title": "Career Guidance Session",
+    "date": "2026-09-22",
+    "category": "Career",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 12,
+    "title": "Blood Donation Camp",
+    "date": "2026-09-26",
+    "category": "Social",
+    "location": "Student Activity Center"
+  },
+  {
+    "id": 13,
+    "title": "Project Exhibition",
+    "date": "2026-10-05",
+    "category": "Academic",
+    "location": "Main Block"
+  },
+  {
+    "id": 14,
+    "title": "Cultural Fest",
+    "date": "2026-10-12",
+    "category": "Cultural",
+    "location": "University Ground"
+  },
+  {
+    "id": 15,
+    "title": "Placement Preparation Workshop",
+    "date": "2026-10-20",
+    "category": "Career",
+    "location": "Seminar Hall"
+  }
+]
