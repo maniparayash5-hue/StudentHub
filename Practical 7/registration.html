@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        <img src="../images/Charusat.png" alt="Charusat logo">
+    </div>
+
+    <div class="header-text">
+        <h1>StudentHub Portal</h1>
+    </div>
+
+</header>
+
+
+<main>
+
+    <div class="form-box">
+
+        <h2>Student Registration</h2>
+
+
+        <form id="registrationForm" action="register.php" method="POST">
+
+
+            <!-- Name -->
+
+            <label for="name">Name</label>
+            <br>
+
+            <input type="text" id="name" name="name">
+
+            <small id="nameError"></small>
+
+            <br><br>
+
+
+            <!-- Email -->
+
+            <label for="email">Email</label>
+            <br>
+
+            <input type="email" id="email" name="email">
+
+            <small id="emailError"></small>
+
+            <br><br>
+
+
+            <!-- Mobile -->
+
+            <label for="mobile">Mobile Number</label>
+            <br>
+
+            <input type="tel"
+                   id="mobile"
+                   name="mobile"
+                   maxlength="10">
+
+            <small id="mobileError"></small>
+
+            <br><br>
+
+
+            <!-- Password -->
+
+            <label for="password">Password</label>
+            <br>
+
+            <input type="password"
+                   id="password"
+                   name="password">
+
+            <small id="passwordError"></small>
+
+            <p id="passwordStrength"></p>
+
+            <br>
+
+
+            <!-- Confirm Password -->
+
+            <label for="confirmPassword">Confirm Password</label>
+            <br>
+
+            <input type="password"
+                   id="confirmPassword"
+                   name="confirmPassword">
+
+            <small id="confirmPasswordError"></small>
+
+            <br><br>
+
+
+            <!-- Course -->
+
+            <label for="course">Course</label>
+            <br>
+
+            <select id="course" name="course">
+
+                <option value="">Select Course</option>
+
+                <option value="CE">
+                    Computer Engineering
+                </option>
+
+                <option value="IT">
+                    Information Technology
+                </option>
+
+                <option value="CSE">
+                    Computer Science
+                </option>
+
+            </select>
+
+            <small id="courseError"></small>
+
+            <br><br>
+
+
+            <!-- Year -->
+
+            <label for="year">Year</label>
+            <br>
+
+            <select id="year" name="year">
+
+                <option value="">Select Year</option>
+
+                <option value="1">
+                    First Year
+                </option>
+
+                <option value="2">
+                    Second Year
+                </option>
+
+                <option value="3">
+                    Third Year
+                </option>
+
+                <option value="4">
+                    Fourth Year
+                </option>
+
+            </select>
+
+            <small id="yearError"></small>
+
+            <br><br>
+
+
+            <!-- Gender -->
+
+            <fieldset>
+
+                <legend>Gender</legend>
+
+                <label>
+                    <input type="radio"
+                           name="gender"
+                           value="Male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio"
+                           name="gender"
+                           value="Female">
+                    Female
+                </label>
+
+                <label>
+                    <input type="radio"
+                           name="gender"
+                           value="Other">
+                    Other
+                </label>
+
+                <br>
+
+                <small id="genderError"></small>
+
+            </fieldset>
+
+            <br>
+
+
+            <!-- Terms -->
+
+            <label>
+
+                <input type="checkbox"
+                       id="terms"
+                       name="terms"
+                       value="Accepted">
+
+                I accept the terms and conditions.
+
+            </label>
+
+            <br>
+
+            <small id="termsError"></small>
+
+            <br><br>
+
+
+            <!-- Submit -->
+
+            <button type="submit"
+                    id="submit"
+                    name="register">
+
+                Register
+
+            </button>
+
+
+        </form>
+
+
+        <p>
+            <a href="login.html">
+                Back to Login
+            </a>
+        </p>
+
+    </div>
+
+</main>
+
+</body>
+</html>
