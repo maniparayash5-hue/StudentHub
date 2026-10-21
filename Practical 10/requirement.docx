@@ -1,0 +1,107 @@
+REQUIREMENT DOCUMENT
+1. Project Title
+
+StudentHub Portal
+
+2. Project Objective
+
+The StudentHub Portal is a simple website developed for students. It allows students to log in and view information such as courses, attendance, assignments, results, profile, and contact details.
+
+3. Project Description
+
+StudentHub Portal is a web-based application created using HTML, CSS, and JavaScript. The website provides different pages for students to access academic information through a simple and user-friendly interface.
+
+4. Software Requirements
+Visual Studio Code
+Google Chrome / Microsoft Edge
+HTML5
+CSS3
+JavaScript
+
+5. Hardware Requirements
+Computer or Laptop
+Minimum 4 GB RAM
+Keyboard and Mouse
+Internet Connection (Optional)
+
+6. Technologies Used
+HTML5
+CSS3
+JavaScript
+
+7. Project Structure
+StudentHub/
+│
+├── CSS/
+│   └── style.css
+│
+├── docs/
+│
+├── images/
+│   └── Charusat.png
+│
+├── js/
+│   └── script.js
+│
+├── pages/
+│   ├── index.html
+│   ├── login.html
+│   ├── dashboard.html
+│   ├── attendance.html
+│   ├── courses.html
+│   ├── assignment.html
+│   ├── result.html
+│   ├── profile.html
+│   └── contact.html
+│
+├── README.md
+└── requirement.docx
+
+8. Pages Included
+Home Page
+Login Page
+Dashboard
+Attendance Page
+Courses Page
+Assignment Page
+Result Page
+Profile Page
+Contact Page
+
+9. Functional Requirements
+User can open the website.
+User can log in using the Login page.
+User can navigate to different pages.
+User can view attendance details.
+User can check available courses.
+User can view assignments.
+User can see examination results.
+User can view their profile.
+User can access the contact page.
+
+10. Non-Functional Requirements
+Easy to use
+Simple user interface
+Fast loading pages
+Responsive design
+Compatible with modern web browsers
+
+11. Features
+Student Login
+Dashboard
+Attendance Information
+Course Details
+Assignment Information
+Result Information
+Student Profile
+Contact Information
+Navigation Menu
+
+12. Future Scope
+Student Registration
+Online Assignment Submission
+Faculty Login
+Database Integration
+Notifications
+Dark Mode
+Mobile-Friendly Design

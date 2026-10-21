@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+h1, h2, h3 {
+    color: #123b5d;
+}
+
+a {
+    color: #0b63ce;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 25px;
+    background-color: #25c1c1;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.header-text h1 {
+    margin: 0;
+    color: white;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    background-color: #0b63ce;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #084b9b;
+    
+}
+
+.button-login {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #0b63ce;
+    border-radius: 8px;
+}
+
+.button-login a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Login page */
+.login-body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36454f;
+}
+
+.loginpage {
+    width: 100%;
+    max-width: 400px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.loginpage h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.loginpage input[type="email"],
+.loginpage input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.button-logins {
+    width: 100%;
+    background-color: #0b63ce;
+}
+
+.button-logins:hover {
+    background-color: #084b9b;
+}
+
+/* Dashboard */
+.dashboard {
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.dashboard-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+.dashboard-menu a {
+    width: 220px;
+}
+
+.dashboard-menu button {
+    width: 100%;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #25c1c1;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f7f7;
+}
+
+/* Forms / Course selection */
+.form-box {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+select {
+    padding: 10px;
+    min-width: 200px;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+
+/* Profile / Result / Contact */
+.content-box {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info {
+    font-family: cursive;
+    white-space: pre-line;
+    line-height: 1.8;
+}
+
+.profile-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Home */
+main {
+    max-width: 900px;
+    width: 100%;
+    margin: 30px auto;
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background-color: #123b5d;
+    color: white;
+    border-radius: 8px;
+}
+
+/* FAQ Page */
+
+details {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 0;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+summary {
+    padding: 15px 20px;
+    color: #123b5d;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary:hover {
+    color: #0b63ce;
+}
+
+details p {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    color: #222;
+    line-height: 1.6;
+}
+
+details[open] summary {
+    color: #0b63ce;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .loginpage {
+        padding: 25px;
+    }
+}
+
+
+
+
+
+/* Practical 6 - Events */
+#eventSearch {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+}
+
+.event-item {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f0f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.event-item h3 {
+    margin-top: 0;
+}
+
+.dashboard-menu {
+    margin-top: 15px;
+}
+
+.dashboard-menu a {
+    margin: 4px 0;
+}
+
+/* Dark mode table readability */
+body.dark-mode table {
+    background-color: #333;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+    color: white;
+    border-color: #777;
+}
+
+body.dark-mode tr:nth-child(even) {
+    background-color: #333;
+}

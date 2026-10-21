@@ -1,0 +1,56 @@
+<?php
+require_once "auth.php";
+
+// Allow only admin users
+if (($_SESSION["role"] ?? "") !== "student") {
+    header("Location: dashboard.php");
+    exit;
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="../CSS/style.css"> 
+    
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <h1>Assignments</h1>
+
+    <table>
+        
+
+        <tr>
+            <th>Subject</th>
+            <th>Assignments</th>
+            <th>Date</th>
+            <th>Deadline</th>
+        </tr>
+
+        <tr>
+            <td>CEUE203</td>
+            <td>2</td>
+            <td>17/07/2026</dh>
+            <td>01/08/2026</td>
+        </tr>
+
+        <tr>
+            <td>MSUD203</td>
+            <td>3</td>
+            <td>15/07/2026</td>
+            <td>05/08/2026</td>
+        </tr>
+
+        <tr>
+            <td>CSUC201</td>
+            <td>1</td>
+            <td>10/07/2026</td>
+            <td>20/07/2026</td>
+        </tr>
+    </table>
+</body>
+</html> 
